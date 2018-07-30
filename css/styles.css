@@ -1335,29 +1335,29 @@ template {
 }
 @font-face {
   font-family: 'GT Sectra Fine Trial';
-  src: url("fonts/GTSectraFineTrial-Regular.eot");
-  src: url("fonts/GTSectraFineTrial-Regular.eot?#iefix") format("embedded-opentype"), url("fonts/GTSectraFineTrial-Regular.woff2") format("woff2"), url("fonts/GTSectraFineTrial-Regular.woff") format("woff"), url("fonts/GTSectraFineTrial-Regular.ttf") format("truetype"), url("fonts/GTSectraFineTrial-Regular.svg#GTSectraFineTrial-Regular") format("svg");
+  src: url("../fonts/GTSectraFineTrial-Regular.eot");
+  src: url("../fonts/GTSectraFineTrial-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/GTSectraFineTrial-Regular.woff2") format("woff2"), url("../fonts/GTSectraFineTrial-Regular.woff") format("woff"), url("../fonts/GTSectraFineTrial-Regular.ttf") format("truetype"), url("../fonts/GTSectraFineTrial-Regular.svg#GTSectraFineTrial-Regular") format("svg");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'Transcript Trial';
-  src: url("fonts/TranscriptTrial-Bold.eot");
-  src: url("fonts/TranscriptTrial-Bold.eot?#iefix") format("embedded-opentype"), url("fonts/TranscriptTrial-Bold.woff2") format("woff2"), url("fonts/TranscriptTrial-Bold.woff") format("woff"), url("fonts/TranscriptTrial-Bold.ttf") format("truetype"), url("fonts/TranscriptTrial-Bold.svg#TranscriptTrial-Bold") format("svg");
+  src: url("../fonts/TranscriptTrial-Bold.eot");
+  src: url("../fonts/TranscriptTrial-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/TranscriptTrial-Bold.woff2") format("woff2"), url("../fonts/TranscriptTrial-Bold.woff") format("woff"), url("../fonts/TranscriptTrial-Bold.ttf") format("truetype"), url("../fonts/TranscriptTrial-Bold.svg#TranscriptTrial-Bold") format("svg");
   font-weight: bold;
   font-style: normal;
 }
 @font-face {
   font-family: 'Fortescue Trial';
-  src: url("fonts/FortescueTrial-Regular.eot");
-  src: url("fonts/FortescueTrial-Regular.eot?#iefix") format("embedded-opentype"), url("fonts/FortescueTrial-Regular.woff2") format("woff2"), url("fonts/FortescueTrial-Regular.woff") format("woff"), url("fonts/FortescueTrial-Regular.ttf") format("truetype"), url("fonts/FortescueTrial-Regular.svg#FortescueTrial-Regular") format("svg");
+  src: url("../fonts/FortescueTrial-Regular.eot");
+  src: url("../fonts/FortescueTrial-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/FortescueTrial-Regular.woff2") format("woff2"), url("../fonts/FortescueTrial-Regular.woff") format("woff"), url("../fonts/FortescueTrial-Regular.ttf") format("truetype"), url("../fonts/FortescueTrial-Regular.svg#FortescueTrial-Regular") format("svg");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'Transcript Trial';
-  src: url("fonts/TranscriptTrial-Regular.eot");
-  src: url("fonts/TranscriptTrial-Regular.eot?#iefix") format("embedded-opentype"), url("fonts/TranscriptTrial-Regular.woff2") format("woff2"), url("fonts/TranscriptTrial-Regular.woff") format("woff"), url("fonts/TranscriptTrial-Regular.ttf") format("truetype"), url("fonts/TranscriptTrial-Regular.svg#TranscriptTrial-Regular") format("svg");
+  src: url("../fonts/TranscriptTrial-Regular.eot");
+  src: url("../fonts/TranscriptTrial-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/TranscriptTrial-Regular.woff2") format("woff2"), url("../fonts/TranscriptTrial-Regular.woff") format("woff"), url("../fonts/TranscriptTrial-Regular.ttf") format("truetype"), url("../fonts/TranscriptTrial-Regular.svg#TranscriptTrial-Regular") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -1434,7 +1434,7 @@ h1 {
   position: absolute;
 }
 @media only screen and (min-width: 768px) and (max-width: 1199px) {
-  .dot:nth-last-child(-n+3) {
+  .dot:nth-last-child(-n+2) {
     display: none;
   }
 }

@@ -13,3 +13,11 @@ $(document).ready(function() {
     }
   });
 });
+
+function openPopup(element) {
+  $(element).fadeIn();
+}
+
+function closePopup() {
+  $(".popup").fadeOut();
+}

@@ -12,10 +12,21 @@ $(document).ready(function() {
       $("#weather").html(error);
     }
   });
+
+
+
+  $(".popup-slider").slick({
+    dots: false,
+    infinite: true,
+    slidesToShow: 1
+  });
+
+
 });
 
+
 function openPopup(element) {
-  $(element).fadeIn();
+  $(element).hide().css("visibility", "visible").fadeIn();
 }
 
 function closePopup() {

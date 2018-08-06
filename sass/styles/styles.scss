@@ -359,9 +359,14 @@ h2 {
 }
 
 #services {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  // display: flex;
+  // align-items: center;
+  // justify-content: center;
+}
+
+#news {
+  // display: flex;
+  // align-items: center;
 }
 
 .popup {
@@ -376,11 +381,13 @@ h2 {
   z-index: 10;
   padding: 30px 0;
   box-sizing: border-box;
+  // overflow-y: scroll;
 }
 
 .popup-header {
-  position: absolute;
-  top: 30px;
+  // position: absolute;
+  // top: 30px;
+  padding: 0 0 30px;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -398,7 +405,7 @@ h2 {
 .popup-content {
   // height: 100%;
   width: 100%;
-  padding: 50px 0;
+  padding: 0 0 25px;
 }
 
 .popup-list {
@@ -484,4 +491,67 @@ h2 {
     padding-top: 20px;
     margin-bottom: 30px;
   }
+}
+
+.popup-image {
+  padding-right: 50px;
+
+  img {
+    display: block;
+    max-width: 100%;
+  }
+}
+
+.popup-slider, .popup-slide {
+  width: 100%;
+  display: block;
+  outline: none;
+}
+
+.popup-news-item {
+  h3 {
+    font-family: 'Transcript Trial';
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 1.45em;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin: 0 0 30px;
+  }
+
+  p {
+    font-family: 'Transcript Trial';
+    font-size: 14px;
+    line-height: 1.8em;
+    letter-spacing: 0.03em;
+    margin: 0 0 30px;
+  }
+}
+
+.popup-news {
+  width: 100%;
+  padding: 0 0 50px;
+}
+
+.slick-next {
+  right: -75px;
+
+  &:before {
+    content: url("../images/right-chevron.svg");
+  }
+}
+
+.slick-prev {
+  left: -75px;
+
+  &:before {
+    content: url("../images/left-chevron.svg");
+  }
+}
+
+.slick-arrow {
+  height: auto;
+  //
+  // @include media-query($medium-down) {
+  // }
 }

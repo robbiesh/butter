@@ -4,14 +4,14 @@
 <head>
   <meta charset="utf-8">
 
-  <title>Butter Studio</title>
+  <title>Butter Studio – Brooklyn, NY</title>
   <meta name="description" content="Butter is a creative studio in Brooklyn, New York that surprises and delights.">
   <meta name="author" content="">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <link rel="stylesheet" href="css/styles.css?v=1.0">
-  <link rel
+  <link rel="icon" type="image/png" href="images/favicon@2x.png" />
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
@@ -824,8 +824,55 @@
             </div>
           </div>
 
-          <div id="news" class="popup" style="display:none;">
-            <h2>News</h2>
+          <div id="news" class="popup" style="visibility: hidden;">
+            <div class="popup-header">
+              <h2>News</h2>
+              <div class="x" onclick="closePopup();">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26.3 26.3"><defs><style>.cls-1{fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:3px;}</style></defs><title>x</title><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><line class="cls-1" x1="1.06" y1="1.06" x2="25.24" y2="25.24"/><line class="cls-1" x1="1.06" y1="25.24" x2="25.24" y2="1.06"/></g></g></svg>
+              </div>
+            </div>
+
+            <div class="popup-news">
+              <div class="popup-slider">
+
+                <div class="popup-slide">
+                  <div class="grid">
+                    <div class="grid__item one-third medium-down--one-whole">
+                      <div class="popup-news-item">
+                        <h3>Naming + Visual Identity Design // Alma Mater Records</h3>
+                        <p>Alma Mater Records, formerly called 'Hot Mom USA,' was ready for a brand refresh. They wanted to keep something related to “mom” in the name but recognized their name went against their feminist, LGBTQ, POC centered ethos. They needed to elevate their brand. We renamed them Alma Mater, meaning “nourishing mother” in Latin. There’s something fresh about taking a stodgy word and subverting it for use in youth culture.</p>
+                        <p>The lions in the logo were inspired by the the Greek goddess Cybele, who was referred to as “alma mater” during ancient times. She would arrive in a lion-drawn chariot accompanied by wild music and a disorderly, ecstatic following. This was a perfect reference for the brand.</p>
+                      </div>
+                    </div>
+                    <div class="grid__item seven-twelfths push--large--one-twelfth medium-down--one-whole">
+                      <div class="popup-image">
+                        <img src="images/alma@2x.png" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="popup-slide">
+                  <div class="grid">
+                    <div class="grid__item one-third medium-down--one-whole">
+                      <div class="popup-news-item">
+                        <h3>Naming + Visual Identity Design // Alma Mater Records</h3>
+                        <p>Alma Mater Records, formerly called 'Hot Mom USA,' was ready for a brand refresh. They wanted to keep something related to “mom” in the name but recognized their name went against their feminist, LGBTQ, POC centered ethos. They needed to elevate their brand. We renamed them Alma Mater, meaning “nourishing mother” in Latin. There’s something fresh about taking a stodgy word and subverting it for use in youth culture.</p>
+                        <p>The lions in the logo were inspired by the the Greek goddess Cybele, who was referred to as “alma mater” during ancient times. She would arrive in a lion-drawn chariot accompanied by wild music and a disorderly, ecstatic following. This was a perfect reference for the brand.</p>
+                        <p><strong>brand design / naming / illustration / art direction</strong></p>
+                      </div>
+                    </div>
+                    <div class="grid__item seven-twelfths push--large--one-twelfth medium-down--one-whole">
+                      <div class="popup-image">
+                        <img src="images/alma@2x.png" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
           </div>
 
         </div>
@@ -855,9 +902,8 @@
 
   </div>
 
-
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="js/jquery.simpleWeather.js"></script>
+  <script src="js/slick.min.js"></script>
   <script src="js/scripts.js"></script>
 
 </body>

@@ -1938,6 +1938,7 @@ h2 {
   transition: opacity 0s;
   top: 0;
   bottom: 0;
+  overflow: hidden;
 }
 .popup-header {
   padding: 0 0 30px;

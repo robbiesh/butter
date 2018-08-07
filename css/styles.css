@@ -1936,6 +1936,8 @@ h2 {
   position: absolute;
   -webkit-transition: opacity 0s;
   transition: opacity 0s;
+  top: 0;
+  bottom: 0;
 }
 .popup-header {
   padding: 0 0 30px;

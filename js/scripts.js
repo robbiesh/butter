@@ -24,6 +24,10 @@ $(document).ready(function() {
     adaptiveHeight: true
   });
 
+  $(".dot").mouseenter(function() {
+    $(this).addClass("dot-hovered");
+  });
+
 });
 
 

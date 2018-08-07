@@ -1715,6 +1715,9 @@ h2 {
 .dot-inner:hover > div, .dot-inner:focus > div, .dot-inner:active > div {
   opacity: 1;
 }
+.dot-hovered .dot-inner > div {
+  opacity: 1;
+}
 .content {
   display: -webkit-box;
   display: -ms-flexbox;

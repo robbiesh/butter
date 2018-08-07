@@ -191,6 +191,13 @@ h2 {
   }
 }
 
+.dot-hovered {
+  .dot-inner {
+    > div {
+      opacity: 1;
+    }
+  }
+}
 
 .content {
   display: flex;

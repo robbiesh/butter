@@ -30,6 +30,7 @@ $(document).ready(function() {
 
 });
 
+document.addEventListener("touchstart", function(){}, true);
 
 function openPopup(element) {
   $(".dots").addClass("hidden");

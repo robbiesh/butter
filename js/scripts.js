@@ -13,22 +13,26 @@ $(document).ready(function() {
     }
   });
 
-
+  // $('.popup-slider').on('init', function(event, slick){
+  //     $("#news").hide();
+  // });
 
   $(".popup-slider").slick({
     dots: false,
     infinite: true,
-    slidesToShow: 1
+    slidesToShow: 1,
+    adaptiveHeight: true
   });
-
 
 });
 
 
 function openPopup(element) {
-  $(element).hide().css("visibility", "visible").fadeIn();
+  $(".dots").addClass("hidden");
+  $(element).removeClass("hidden");
 }
 
 function closePopup() {
-  $(".popup").fadeOut();
+  $(".dots").removeClass("hidden");
+  $(".popup").addClass("hidden");
 }

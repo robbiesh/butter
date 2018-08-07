@@ -2013,19 +2013,20 @@ h2 {
   box-sizing: border-box;
 }
 .contact-form input::-webkit-input-placeholder {
-  color: black;
+  color: rgba(0, 0, 0, 0.5);
 }
 .contact-form input::-moz-placeholder {
-  color: black;
+  color: rgba(0, 0, 0, 0.5);
 }
 .contact-form input:-ms-input-placeholder {
-  color: black;
+  color: rgba(0, 0, 0, 0.5);
 }
 .contact-form input:-moz-placeholder {
-  color: black;
+  color: rgba(0, 0, 0, 0.5);
 }
 .contact-form label {
   margin-bottom: 10px;
+  color: rgba(0, 0, 0, 0.5);
 }
 .contact-form label, .contact-form textarea {
   width: 100%;

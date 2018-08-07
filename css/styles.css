@@ -1664,6 +1664,9 @@ h2 {
   cursor: pointer;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
+.dot:hover, .dot:active, .dot:focus {
+  outline: none;
+}
 @media only screen and (min-width: 768px) and (max-width: 1199px) {
   .dot:nth-last-child(-n+2) {
     display: none;
